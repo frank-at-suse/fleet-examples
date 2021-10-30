@@ -5,8 +5,8 @@ metadata:
   labels:
     app: guestbook
     tier: frontend
-   annotations: 
-     io.cilium/global-service: "true"
+  annotations: 
+    io.cilium/global-service: "true"
 spec:
   type: "{{ .Values.serviceType }}"
   ports:
