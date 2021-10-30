@@ -6,8 +6,8 @@ metadata:
     app: redis
     role: master
     tier: backend
-   annotations:
-     io.cilium/global-service: "true"
+  annotations:
+    io.cilium/global-service: "true"
 spec:
   ports:
   - port: 6379
